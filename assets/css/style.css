@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.banner-section {
+    background-image: url("../images/donation2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* height: 800px;
+    width: 1900px; */
+    height: 100vh;
+    width: 100%;
+
+}
+
+.v-position {
+    position: relative;
+    top: 120px;
+}
+
+.text-white {
+    color: white;
+}
+
+.title {
+    font-size: 55px;
+}
+
+.sub-title {
+    font-size: 25px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.orange-button {
+    background-color: tomato;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 22px;
+    position: relative;
+    top: 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.money-box {
+    font-size: 25px;
+    padding: 60px;
+    background-color: whitesmoke;
+    color: gray;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+#red-box {
+    font-size: 25px;
+    padding: 60px;
+    background-color: rgb(247, 206, 206);
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.other-amount input {
+    border: 0;
+    border-bottom: 1px solid gray;
+    width: 60%;
+    text-align: center;
+    font-size: large;
+    outline: none;
+}
+
+.our-donate-plan {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.donation-plan-box {
+    font-size: 25px;
+    padding: 20px;
+    border: 15px solid white;
+    text-align: left;
+}
+
+#blue {
+    background-color: skyblue;
+}
+
+#pink {
+    background-color: pink;
+}
+
+#yellow {
+    background-color: blanchedalmond;
+}
+.bg-dark{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}
+/* .contact-form{
+    padding: 10px 20px;
+} */
+.contact-form input{
+    border: 0;
+    border-bottom: 1px solid gray;
+    width: 70%;
+    text-align: left;
+    font-size: large;
+    outline: none;
+}
+.contact-form textarea{
+    border: 0;
+    border-bottom: 1px solid gray;
+    width: 70%;
+    text-align: left;
+    font-size: large;
+    outline: none;
+}
+footer a{
+    text-decoration: none;
+    color: orange;
+}
